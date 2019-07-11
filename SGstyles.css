@@ -1,0 +1,77 @@
+body {
+    background: #D0D3D4  ;
+    }
+
+.navbar {
+    background: white ;
+    }
+
+.navbar-light .navbar-brand {
+    font-family: Times;
+    color: white;
+    font-weight: bold;
+    background: #66b2b2 ;
+    padding: 10px;
+    }
+
+h1 { 
+    font-family: Times;
+    color: #66b2b2;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    }
+
+h2 { 
+    font-family: Times;
+    color: #66b2b2;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    }
+
+h3 { 
+    font-family: Times;
+    color: #66b2b2;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.border-1 {
+    border-width:3px !important;
+    border-color: #66b2b2 !important;
+    }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #696969;
+    color: white;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: #66b2b2;
+    }
+
+.table thead>tr>th {
+    border-top: 0px;
+    }
+
+#comp_plot {
+    border-bottom: 0px solid #C0C0C0;
+    }
+
+@media (max-width: 760px) {
+    #nav {
+        background: #66b2b2;
+    } 
+    #comp_plot{
+        border-bottom: 1px solid #DCDCDC;
+    } 
+    }

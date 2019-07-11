@@ -48,29 +48,28 @@
   </div>
 </nav>
 
-<!-- LEFT SIDE WITH TEXT -->  
+<!-- LEFT SIDE WITH TEMP GRAPH & TEXT -->  
 
 <div class="row">
   <div class="col-md-7 col-sm-12">
     <div class="container mt-5 ml-5 mr-3 mb-5 pt-5 pl-5 pr-5 pb-5 bg-white">
-      <h1>Summary: Latitude vs. X</h1>
-      <hr>
+        <h1>Wind Speed</h1>
+        <hr>
+        <div class="row">  
+            <div class="col-md-12 col-sm-12">
+              <img src="fig4.png" alt="" class="img-fluid">
 
-      <div class="row single-post mt-5 no-gutters">
-        <div class="col-sm-12">
-          <img src="fig1.png" alt="" class="w-50 float-left pull-left mr-2">
-          <p class="text-secondary">
-          The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeather API to assemble a dataset on over 500 cities.
-          <br><br>
-          After assembling the dataset we used Matplotlib to plot various aspect of the weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidty.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-          </p>
+              <p class="text-secondary">
+              While some outlier high wind speeds are found at higher latitudes, in general this data illustrates there is no consistent correlation between latitude and wind speed.    
+              </p>
+
+            </div>
         </div>
-      </div>
 
     </div>
   </div>
 
- <!-- RIGHT SIDE WITH VISUALIZATIONS --> 
+ <!-- RIGHT SIDE WITH VISUALIZATION MENU --> 
 
   <div class="col-md-4 col-sm-12">
     <div class="container mt-5 ml-5 mr-3 mb-5 pt-5 pl-3 pr-3 pb-5 bg-white">
@@ -87,7 +86,7 @@
           <img src="fig3.png" alt="" class="img-fluid">
         </div>
         <div class="col-md-6 col-sm-3">
-          <img src="fig4.png" alt="" class="img-fluid">
+          <img src="fig4.png" alt="" class="img-fluid border border-1">
         </div>
       </div>
   </div>
@@ -96,4 +95,3 @@
 <footer>&copy; Scott Gregory 2019</footer>
 
 </body>
-
